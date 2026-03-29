@@ -1,4 +1,5 @@
 #NOTE: THIS IS INTENDED FOR BEING RUN ON KAGGLE, DATASET & NOTEBOOK LINK IS INCLUDED IN README
+#NOTE: THIS WAS THE ORIGINAL ARCHITECTURE, V2.0 (WHICH IS BETTER) IS IN ECG_test_v2.py
 # =============================================================================
 # ECG Dynamical Analysis: Recurrence Plot CNN vs Raw Signal 1D CNN
 # Dataset: PTB Diagnostic ECG Database (Kaggle — CSV version)
