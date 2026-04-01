@@ -17,7 +17,7 @@ The first idea was to visualize data as a series of fractals, allowing CNNS to d
 ![Earliest recurrence plots](collected_data/recurrance.png)
 ![Regression test training chart](collected_data/logisticmaps.png)
 After testing it on synthetic data, the model was tested on real world ECG data. It was compared with a base model, being a 1D CNN as opposed to Carapace's 2D CNN. At first it didn't fare very well, until the adaptive learned embedder and windowing techniques were added. After that it was able to surpass the base model in recall.
-![Test 1 training charts]()
-![Test one model comparison]()
-![Test 2 training charts]()
-![Test 2 model comparison]()
+![Test 1 training charts](collected_data/training_curves_v1.png)
+![Test one model comparison](collected_data/model_comparison_v1.png)
+![Test 2 training charts](collected_data/training_curves_v2.png)
+![Test 2 model comparison](collected_data/model_comparison_v2.png)
