@@ -31,4 +31,14 @@ After testing it on synthetic data, the model was tested on real world ECG data.
 ### Regression Test
 The primary theory behind the Carapace Architecture is that it improves with dimensionality, so in order to test that theory it was tested on the Beijing PM2.5 Dataset. As with the previous test, Carapace was tested against a 1D CNN base model. At first there were several issues with the learning process (sepcifically returning nan values for MSE and MAE loss), which was fixed by version 2.
 #### Test 1 results
-![]()
+![Prediction results](collected_data/regtest1_prediction.png)
+#### Test 2 results
+![Prediction results](collected_data/regtest2_prediction.png)
+## Datasets used:
+[Beijing PM2.5](https://www.kaggle.com/datasets/djhavera/beijing-pm25-data-data-set)
+
+[PTB Diagnostic ECG Database](https://www.kaggle.com/datasets/abhirampolisetti/ptb-diagnostic-ecg-database)
+
+## Kaggle Notebooks
+[Classification Test](https://www.kaggle.com/code/citricml/carapace-architecture-v2-0)
+[Regression Test](https://www.kaggle.com/code/citricml/carapace-v2-regression-test)
